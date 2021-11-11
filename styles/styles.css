@@ -10,6 +10,7 @@
   --color-body: #918ca4;
 }
 
+/* 字体配置 */
 /* 设置默认字体大小 */
 html {
   /* 默认字体大小是16px，62.5%是10px */
@@ -55,5 +56,34 @@ p {
   }
   h3 {
     font-size: 2.4rem;
+  }
+}
+
+/* 链接配置,Links */
+a {
+  text-decoration: none;
+}
+
+.link-arrow {
+  color: var(--color-accent);
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.link-arrow::after {
+  content: "-->";
+  margin-left: 5px;
+
+  transition: margin 0.15s;
+}
+
+.link-arrow:hover::after {
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .link-arrow {
+    font-size: 1.5rem;
   }
 }
