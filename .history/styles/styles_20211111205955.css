@@ -250,11 +250,6 @@ a {
     border: 2px solid var(--color-headings);
 }
 
-.btn--outline:hover {
-    background-color: var(--color-headings);
-    color: #fff;
-}
-
 .btn--block {
     width: 100%;
     display: inline-block;

@@ -244,26 +244,9 @@ a {
     background-color: #ec3000;
 }
 
-.btn--outline {
-    background-color: #fff;
-    color: var(--color-headings);
-    border: 2px solid var(--color-headings);
-}
-
-.btn--outline:hover {
-    background-color: var(--color-headings);
-    color: #fff;
-}
-
 .btn--block {
     width: 100%;
     display: inline-block;
-}
-
-@media screen and (min-width: 1024px) {
-    .btn {
-        font-size: 1.5rem;
-    }
 }
 
 
