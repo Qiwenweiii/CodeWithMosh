@@ -291,8 +291,6 @@ a {
 .input-group .input {
     border: 0;
     flex-grow: 1;
-    /* 按钮在左侧时，或者左侧有其他内容时新增这一句 */
-    /* padding: 1.5rem 1rem; */
 }
 
 .input-group .btn {
