@@ -1,3 +1,15 @@
+:root {
+  /* 定义配色变量 */
+  /* 主体配色 */
+  --color-primary: #2584ff;
+  --color-secondary: #00d9ff;
+  --color-accent: #ff3400;
+
+  /* 文本配色 */
+  --color-headings: #1b0760;
+  --color-body: #918ca4;
+}
+
 body {
   font-family: sans-serif;
   background: #1abc9c;
