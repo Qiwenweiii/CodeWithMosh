@@ -323,8 +323,3 @@ a {
     background-color: var(--color-primary);
     color: #fff;
 }
-
-.card--secondary .card__header {
-    background-color: var(--color-secondary);
-    color: #fff;
-}
