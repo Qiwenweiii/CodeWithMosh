@@ -569,8 +569,6 @@ a {
 
 .collapsible__chevron {
   transform: rotate(-90deg);
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
 }
 
 .collapsible--expanded .collapsible__chevron {
@@ -578,13 +576,9 @@ a {
 }
 
 .collapsible__content {
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
+  display: none;
 }
 
 .collapsible--expanded .collapsible__content {
-  max-height: 100vh;
-  opacity: 1;
+  display: block;
 }

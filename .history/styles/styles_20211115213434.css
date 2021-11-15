@@ -579,7 +579,6 @@ a {
 
 .collapsible__content {
   max-height: 0;
-  overflow: hidden;
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }
