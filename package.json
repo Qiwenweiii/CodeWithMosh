@@ -1,7 +1,7 @@
 {
-  "name": "codewithmosh1",
+  "name": "codewithmosh2",
   "version": "1.0.0",
-  "description": "跟着Mosh写静态页面",
+  "description": "",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
