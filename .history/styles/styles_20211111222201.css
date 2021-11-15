@@ -356,7 +356,6 @@ a {
 }
 
 .plan__description {
-    display: block;
     font-size: 2rem;
     font-weight: 300;
     letter-spacing: 1px;
@@ -375,8 +374,5 @@ a {
     }
     .plan__billing-cycle {
         font-size: 1.6rem;
-    }
-    .plan__description {
-        font-size: 1.7rem;
     }
 }

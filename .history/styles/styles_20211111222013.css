@@ -356,7 +356,6 @@ a {
 }
 
 .plan__description {
-    display: block;
     font-size: 2rem;
     font-weight: 300;
     letter-spacing: 1px;
@@ -364,19 +363,4 @@ a {
 
 .plan .list__item {
     margin-bottom: 2rem;
-}
-
-@media screen and (min-width: 1024px) {
-    .plan__name {
-        font-size: 1.4rem;
-    }
-    .paln__price {
-        font-size: 5rem;
-    }
-    .plan__billing-cycle {
-        font-size: 1.6rem;
-    }
-    .plan__description {
-        font-size: 1.7rem;
-    }
 }
