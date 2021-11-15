@@ -596,12 +596,6 @@ a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 1rem;
-}
-
-.nav__toggler {
-  opacity: 0.5;
-  cursor: pointer;
 }
 
 .nav__list {
@@ -615,8 +609,4 @@ a {
 
 .nav__item > a {
   color: #d2d0db;
-  transition: all 0.2s ease-in-out;
-}
-.nav__item > a:hover {
-  color: #fff;
 }

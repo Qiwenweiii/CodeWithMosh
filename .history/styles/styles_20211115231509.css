@@ -599,11 +599,6 @@ a {
   padding: 1rem;
 }
 
-.nav__toggler {
-  opacity: 0.5;
-  cursor: pointer;
-}
-
 .nav__list {
   width: 100%;
 }
