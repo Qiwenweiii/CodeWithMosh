@@ -327,6 +327,7 @@ a {
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #f3f3f3;
   overflow: hidden;
+  position: relative;
 }
 
 .card__header,
@@ -345,7 +346,7 @@ a {
 }
 
 .card--primary .badge--primary {
-  background-color: #005ed8;
+  background-color: #126de4;
 }
 
 .card--secondary .badge--secondary {
@@ -353,6 +354,16 @@ a {
 }
 
 /* Plans，订阅组件 */
+
+.plan {
+  /* max-width: 500px;
+  margin: 0 auto; */
+  transition: all 0.2s ease-in-out;
+}
+
+.plan:hover {
+  transform: scale(1.05);
+}
 
 .plan__name {
   color: #fff;
@@ -386,7 +397,12 @@ a {
 /* 热门卡片 */
 /* 相对于plan进行定位，则不受hidden的影响 */
 .plan--popular {
-  position: relative;
+  /* position: relative; */
+  transform: scale(1.1);
+}
+
+.plan--popular:hover {
+  transform: scale(1.15);
 }
 
 .plan--popular .card__header::before {
@@ -747,4 +763,14 @@ a {
   .block-domain__prices {
     grid-template-columns: repeat(6, 1fr);
   }
+}
+
+/* Plan Block */
+.block-plans .grid {
+  gap: 8rem 4rem;
+}
+
+.block-plans .card {
+  max-width: 500px;
+  margin: 0 auto;
 }
