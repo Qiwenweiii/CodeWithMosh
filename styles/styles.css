@@ -595,13 +595,25 @@ a {
   background-color: #000;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   padding: 1rem;
+}
+
+.nav__brand {
+  transform: translateY(5px);
 }
 
 .nav__toggler {
   opacity: 0.5;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav.collapsible--expanded .nav__toggler {
+  opacity: 1;
+  box-shadow: 0 0 0 3px #666;
+  border-radius: 5px;
 }
 
 .nav__list {
@@ -615,8 +627,26 @@ a {
 
 .nav__item > a {
   color: #d2d0db;
-  transition: all 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 .nav__item > a:hover {
   color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .nav__toggler {
+    display: none;
+  }
+
+  .nav__list {
+    width: auto;
+    display: flex;
+    font-size: 1.6rem;
+    max-height: 100%;
+    opacity: 1;
+  }
+
+  .nav__item {
+    border: none;
+  }
 }
